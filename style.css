@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+}
+.sec-1{
+    background-image: url(./images/bg.jpg);
+    background-position: bottom;
+    height: 100vh;
+    width: 100%;
+    box-shadow: inset 0px 10px 200px 200px rgb(0, 0, 0,0.7);
+}
+
+img{
+    height: 80px;
+    width: 150px;
+    margin: 8px 12%;
+    cursor: pointer;
+}
+
+.nav-right{
+    float: right;
+    margin: 30px 180px;
+}
+
+#lang{
+ padding: 6px 20px;
+ border-radius: 5px;
+ border: 2px solid rgb(138, 132, 132);
+ background-color: black;
+ color: white;
+}
+
+#lang:hover{
+    border: 2px solid white
+}
+
+.signin-btn{
+    background-color: red;
+    padding: 6px 15px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.get-started{
+    display: block;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    width: 60%;
+    margin: 0 auto;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+
+.get-started h2{
+    font-weight: 900;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+}
+
+.get-started p,.email-btn{
+    text-align: center;
+    margin-top:20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+.email-btn input,button{
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.email-btn input{
+    width: 40%;
+    background-color: black;
+    border: 1px solid gray;
+    padding: 20px 20px;
+    opacity: 0.5;
+    color: white;
+}
+.email-btn input::placeholder{
+    color: white;
+    opacity: 0.7;
+}
+.email-btn input:focus{
+    outline: none;
+    border: 2px solid white;
+    opacity: 1;
+}
+.email-btn button{
+    width: 20%;
+    padding: 15px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+}
+
+.separation{
+    height: 6px;
+    background-color: gray;
+}
+.sec-2,.sec-4{
+    height: 85vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec-2 div video,.sec-4 div video{
+    height: 300px;
+    width: 500px;
+    border: 2px solid white;
+    margin-left: 20px;
+    position: relative;
+    left: 60%;
+}
+
+.heading-2,.heading-4{
+    text-align: left;
+    position: absolute;
+    left: 10%;
+    width: 600px;
+    height: 200px;
+}
+
+.heading-2 h2,.heading-4 h2{
+    font-size: 60px;
+}
+
+.heading-2 p,.heading-4 p{
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.sec-3,.sec-5,.sec-6{
+    height: 85vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec-3 div video,.sec-5 div video{
+    height: 300px;
+    width: 500px;
+    border: 2px solid white;
+    margin-right: 20px;
+    position: relative;
+    right: 60%;
+}
+
+.sec-3 .heading-3,.sec-5 .heading-5{
+    text-align: left;
+    position: absolute;
+    left: 50%;
+    width: 600px;
+    height: 200px;
+}
+
+.heading-3 h2,.heading-5 h2{
+    font-size: 60px;
+}
+
+.heading-3 p,.heading-5 p{
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.sec-6{
+    height: 1000px;
+    position: relative;
+}
+.sec-6 h1{
+    font-size: 50px;
+    position: absolute;
+    height: 800px;
+    top: 10%;
+}
+
+.sec-6 table{
+    position: absolute;
+    height: 500px;
+    width: 80%;
+    top: 200px;
+}
+.sec-5 table tr{
+    position: relative;
+    background-color: #2D2D2D;
+    margin-bottom: 20px;
+}
+.sec-6 table tr:hover{
+    background-color: gray;
+}
+.sec-6 table tr a{
+    float: right;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.sec-6 table tr td{
+    padding: 20px;
+    font-size: 25px;
+}
+
+.sec-7-get-started{
+    position: absolute;
+    top: 80%;
+}
+
+.footer{
+    height: 80vh;
+    background-color: black;
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.footer p{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-size: 20px;
+}
+
+.footer .lists-items{
+    position: absolute;
+    left: 10%;
+}
+
+.lists-items{
+    position: absolute;
+    top: 30%;
+    width: 80%;
+    height: 200px;
+}
+.lists-items ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.lists-items ul li{
+    list-style-type: none;
+    margin: 5px 60px 0 0;
+    padding: 15px 10px 0 0;
+    width: 20%;
+}
+.lists-items ul li a{
+    color: rgb(245, 227, 227);
+    font-size: 20px;
+}
+
+.footer .end-text{
+    position: absolute;
+    top: 80%;
+    left: 10%;
+}
+
+.footer select{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+}
